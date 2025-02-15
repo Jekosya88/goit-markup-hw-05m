@@ -613,6 +613,10 @@ margin-right: 80px;
   background-color: #31d0aa;
 }
 
+.footer-icon {
+  fill: #f4f4fd; 
+} 
+
 .footer-form {
   width: 453px;
 height: 80px;
@@ -621,13 +625,18 @@ height: 80px;
 }
 
 .text-label {
-  font-weight: 500;
+  position: absolute;
+  width: 75px;
+  height: 24px;
+  left: 828px;
+  top: 100px;
+  color: rgb(255, 255, 255);
+font-family: Roboto;
 font-size: 16px;
+font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #fff;
-margin-bottom: 16px;
-left: 0;
+text-align: left;
 }
 .report-form {
   display: flex;
@@ -648,13 +657,14 @@ left: 0;
     letter-spacing: 0.04em;
     outline: none;
     color: #ffffff; 
+    
     }
     
     .email-input::placeholder {
     color: #ffffff;
     }
     
-    .button-form {
+    .footer-btn {
     min-width: 165px;
     height: 40px;
     font-weight: 500;
@@ -663,7 +673,6 @@ left: 0;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
-    border: none;
     border-radius: 4px;
     cursor: pointer;
     padding: 8px 24px;
