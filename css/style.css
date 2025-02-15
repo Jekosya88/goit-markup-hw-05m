@@ -637,6 +637,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
+margin-bottom: 16px;
 }
 .report-form {
   display: flex;
@@ -666,6 +667,7 @@ text-align: left;
     
     .footer-btn {
     min-width: 165px;
+    border: none;
     height: 40px;
     font-weight: 500;
     font-size: 16px;
