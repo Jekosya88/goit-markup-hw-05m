@@ -653,7 +653,8 @@ height: 80px;
 .footer-sub-text {
   font-weight: 500;
   color: #fff;
-
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 .report-form {
